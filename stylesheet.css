@@ -121,7 +121,7 @@ section h3 {
 }
 
 .box {
-	color: #148F77;
+	color: navy;
 }
 
 .box:after {
@@ -153,14 +153,75 @@ section h3 {
 	margin: 20px 0;
 }
 
-
 footer {
-	padding: 0px 0;
-	background-color: #333;
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	background: grey;
+}
+
+.footer-content {
+	display: flex;
+}
+
+.content-social {
+	flex-basis: 30%;
+	padding: 10px 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+	line-height: 40px;
+	color: ivory;
+	font-weight: 500;
+}
+
+.content-social li a:hover {
+	background: darkturquoise;
+	transition: 0.3s;
+}
+
+.content-address {
+	flex-basis: 35%;
+	padding: 10px 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: ivory;
+	line-height: 50px;
+}
+
+.content-address  span:hover {
+ background: darkturquoise;
+ cursor: pointer;
+
+}
+
+
+.content-pesan {
+	flex-basis: 30%;
+	padding: 10px 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: ivory;
+}
+
+
+
+
+.content-pesan .content .email {
+	margin-top: 10px;
+}
+
+.footer-bottom {
+	padding: 5px;
+	background-color:black;
 	color: #fff;
 	text-align: center;
-	padding-bottom: 50px;
+	width: 100%;
+	height: 20px;
+	border-top: 2px solid rgb(39, 39, 143);
+
 }
+
+
 
 .bg-loader {
 	background-color: #eee;
